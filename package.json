@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.0",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@ant-design-vue/nuxt": "^1.4.2",
+    "@ant-design/icons-vue": "^7.0.1",
+    "@element-plus/nuxt": "^1.0.10",
+    "ant-design-vue": "^4.2.3",
+    "element-plus": "^2.8.1"
+  }
+}
